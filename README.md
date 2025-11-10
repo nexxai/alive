@@ -77,7 +77,7 @@ The tool provides real-time progress:
 
 ## Testing
 
-Run the test suite:
+Run the test suite locally:
 
 ```bash
 pytest
@@ -88,6 +88,10 @@ The tests include:
 - Unit tests for each module with mocked dependencies
 - Integration tests for the main workflow
 - API response mocking and DNS resolution simulation
+
+### CI/CD
+
+This project uses GitHub Actions for continuous integration. Tests are automatically run on every push and pull request to ensure code quality.
 
 ## Project Structure
 
